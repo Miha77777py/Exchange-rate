@@ -1,0 +1,45 @@
+:root {
+	--light-gray: rgb(191, 191, 191);
+	--black: rgb(0, 0, 0);
+	--grey: rgb(143, 143, 143);
+	--white: rgb(237, 237, 237);
+}
+
+body {
+	background-image: url(../images/background.png);
+	color: var(--white);
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	border-bottom: 2px solid var(--black);
+	padding-bottom: 10px;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+.exchange {
+	padding-top: 30px;
+}
+
+.exchange-form-btn {
+	margin: 5px 0;
+	background-color: var(--light-gray);
+	color: var(--white);
+	border-radius: 10px;
+	width: 75px;
+	height: 30px;
+	transition: background-color 0.2s;
+}
+
+.exchange-form-btn:hover {
+	background-color: var(--grey);
+}
+

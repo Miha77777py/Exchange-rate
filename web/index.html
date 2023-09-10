@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exchange rate convertor</title>
+	<script type="text/javascript" src="eel.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="./images/icon.png">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Exchange rate convertor</h1>
+		</div>
+	</header>
+	<main>
+		<section class="exchange">
+			<div class="container">
+				<form class="exchange-form">
+					<label for="from">From:</label>
+					<select name="from-select" class="from">
+						<option value="usd">USD</option>
+						<option value="uah">UAH</option>
+						<option value="eur">EUR</option>
+						<option value="pln">PLN</option>
+						<option value="cad">CAD</option>
+					</select>
+					<input type="text" class="value" placeholder="Value"><br>
+					<button type="button" onclick="exchange()" class="exchange-form-btn">Check</button><br>
+					<label for="to">To:</label>
+					<select name="to-select" class="to">
+						<option value="uah">UAH</option>
+						<option value="usd">USD</option>
+						<option value="eur">EUR</option>
+						<option value="pln">PLN</option>
+						<option value="cad">CAD</option>
+					</select>
+					<input type="text" class="result" readonly placeholder="Result"><br>
+				</form>
+			</div>
+		</section>
+	</main>
+	<script type="text/javascript" src="./js/js.js"></script>
+</body>
+</html>
