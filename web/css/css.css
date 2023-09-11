@@ -32,7 +32,7 @@ h1 {
 .exchange-form-btn {
 	margin: 5px 0;
 	background-color: var(--light-gray);
-	color: var(--white);
+	color: var(--black);
 	border-radius: 10px;
 	width: 75px;
 	height: 30px;
